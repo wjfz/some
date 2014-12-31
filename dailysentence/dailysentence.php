@@ -27,6 +27,7 @@ foreach ($arr as $k => $v) {
 		}
 		$sql .= ", `{$k}` = '{$tags}'";
 	}else{
+		$v = addslashes($v);
 		$sql .= ", `{$k}` = '{$v}'";
 	}
 }
