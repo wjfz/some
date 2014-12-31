@@ -1,4 +1,4 @@
 some
 ====
 
-璁板綍涓�浜涗唬鐮佹
+dailysentence:获取金山词霸每日一句
