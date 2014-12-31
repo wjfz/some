@@ -1,4 +1,4 @@
 some
 ====
 
-dailysentence:获取金山词霸每日一句
+dailysentence:获取金山词霸每日一句内容
