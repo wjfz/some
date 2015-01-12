@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script src="http://lib.sinaapp.com/js/jquery/1.9.1/jquery-1.9.1.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$("#new").hide();
+			$("#add").hide();
+			
+			$("#add").click(function(){
+				$("#s1").append("<option>"+$("#new").val()+"</option>");
+				$("#new").val('');
+			});
+
+		});
+		function a()
+		{
+			var val = $("#s1").val();
+			if (val == '自定义') {
+				$("#new").show();
+				$("#add").show();
+			} else{
+				alert(val);
+			};
+		}
+	</script>
+</head>
+
+<body>
+
+<select id="s1" onchange="a()">
+	<option>aaa</option>
+	<option>bbb</option>
+	<option>自定义</option>
+</select>
+<br>
+<input id="new" placeholder="添加新的"><button id="add">add</button>
+</body>
+</html>
