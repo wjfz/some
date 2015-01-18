@@ -10,3 +10,5 @@ mail:PHP的一个发送邮件的类
 calendar-graph:类似于github的活跃日历显示
 
 new-cate:允许用户自行添加下拉框内容，可用于分类等
+
+voice.php:生成语音文件，可用于微信等地方
