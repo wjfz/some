@@ -11,4 +11,6 @@ calendar-graph:类似于github的活跃日历显示
 
 new-cate:允许用户自行添加下拉框内容，可用于分类等
 
-voice.php:生成语音文件，可用于微信等地方
+voice:生成语音文件，可用于微信等地方
+
+compare-array:对比两个数组是否一致
